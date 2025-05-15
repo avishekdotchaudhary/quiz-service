@@ -1,11 +1,7 @@
 package com.iquiz.quiz.service;
 
-import com.iquiz.quiz.dao.QuestionDao;
 import com.iquiz.quiz.dao.QuizDao;
-import com.iquiz.quiz.model.Question;
-import com.iquiz.quiz.model.QuestionWrapper;
 import com.iquiz.quiz.model.Quiz;
-import com.iquiz.quiz.model.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

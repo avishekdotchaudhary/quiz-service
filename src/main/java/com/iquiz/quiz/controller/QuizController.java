@@ -1,12 +1,7 @@
 package com.iquiz.quiz.controller;
 
-import com.iquiz.quiz.model.Question;
-import com.iquiz.quiz.model.QuestionWrapper;
-import com.iquiz.quiz.model.Response;
 import com.iquiz.quiz.service.QuizService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
