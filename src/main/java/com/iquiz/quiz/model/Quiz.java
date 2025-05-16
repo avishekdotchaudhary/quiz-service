@@ -1,9 +1,6 @@
 package com.iquiz.quiz.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Builder;
 import lombok.Data;
 
@@ -18,5 +15,6 @@ public class Quiz {
     private Integer id;
     private String title;
     private String category;
-    private List<Question> questions;
+    @ElementCollection
+    private List<Integer> questionIds;
 }
